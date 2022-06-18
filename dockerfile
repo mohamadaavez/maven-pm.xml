@@ -1,7 +1,7 @@
 FROM openjdk:11
 
 
-MKDIR /data
+RUN mkdir /data
 WORKDIR /data
 COPY my-app-1.0-SNAPSHOT.jar .
 
